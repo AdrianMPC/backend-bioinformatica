@@ -136,6 +136,7 @@ venv.bak/
 alignments
 extracted_genes
 uploaded_files
+classical_ppc.gb
 
 # Spyder project settings
 .spyderproject

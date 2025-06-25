@@ -48,6 +48,7 @@ class AnalyzeRequest(BaseModel):
     nombre: str
     institucion: str
 
+# EVIE AQUI CAMBIAS EL ID DEL ARCHIVO DEFAULT
 def ncbi_get_reference(output_path="classical_ppc.gb", accession="AF091507.1"):
     Entrez.email = "tester@example.com"
     with Entrez.efetch(db="nucleotide", id=accession, rettype="gb", retmode="text") as handle:
